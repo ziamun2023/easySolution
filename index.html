@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo:wght@900&display=swap" rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
 
  
@@ -17,7 +21,9 @@
     <!-- header -->
  
     <nav class="border-b-2">
+      
         <ul class="navbar">
+            <li><a href="#home">FitLife Hub</a></li>
             <li><a href="#home">Home</a></li>
             <li><a href="#service">Service</a></li>
             <li><a href="#about">About</a></li>
@@ -25,20 +31,47 @@
         </ul>
     </nav>
 
-    <section id="home" class="section">
-   <div class="grid  lg:grid-cols-2">
+    <section id="home" class="section ">
+   <div class="grid  lg:grid-cols-2 justify-items-center">
 
-    <div class="">
-        <p>Business to achieve goals effectively and efficiently</p>
+    <div class="mx-10 ">
+        <p class="bg-[rgb(200,162,214)] w-20 h-5   "></p>
+        <p class="my-5 ">TALK FITNESS GROWTH</p>
+
+
+        <p class="text-4xl font1 text-gray-800 font-bold">Elevate Your Wellness Journey: Empower Your Body and Mind</p>
+        <p  class="tracking-wider text-gray-800 ">Unleash Your Full Potential with our Comprehensive Fitness Solutions. Elevate Physical and Mental Wellbeing Today.</p>
+        <div class="flex shadow-md  justify-between ">
+            <p class="my-auto px-20">Register </p><button class="h-10 rounded-xl m-7   w-[200px] bg-black text-white font-bold">Start Free Trial</button>
+        </div>
 
     </div>
-    <div>
+    <div class="relative">
+        <img class="w-[600px]  h-[400px] rounded-xl" src='./image/german4.jpg' alt="">
+        <div class="rounded-xl w-52 h-40 bg-[rgb(200,162,214)]  absolute top-[220px] -left-20">
+           <div class="flex justify-between ">
+            <p class="p-2">Fitness</p>
+            <p class="p-2"><img src="./image/pexels-max-rahubovskiy-6782577.png" class="w-10  rounded-full h-10" alt=""></p>
+           </div>
+           <hr class="mx-5">
+           <div class="mx-2 text-center">
+            your profile score
+           </div>
 
+        </div>
+ 
     </div>
+    <button data-target="#service" class="downArrow text-center col-span-2 "><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAk0lEQVR4nO2SzQqEMAyEv5dIWN//TfTk/lz04OMoC10oxQ1N24OKA7mEzAxMBm4cDT3wBrSAq8AHGKyjJ7ACs9NEA+fLHa1DAaZwuABdhnjKeXgJXUtxj4mUiueYSKl42iKNnvd7/N6uqkWaCP4Tr2qRRPs0FndcVgSvMFaEF29Rjom0EsfRomqI0aJm0J0W3TgBNg8nYA9VeBN8AAAAAElFTkSuQmCC"></button>
+
+  
 
    </div>
+
         <!-- Content for the Home section -->
     </section>
+ 
+
+   
 
     <section id="service" class="section">
         <h2>Service Section</h2>

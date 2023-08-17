@@ -1,4 +1,30 @@
 /* Basic styling, adjust as needed */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font1{
+  font-family: 'Aleo', serif;
+  
+}
+
+.downArrow{
+  animation: updown 2s ease-in-out infinite;
+}
+
+@keyframes updown {
+  0% ,100% {
+    transform: translateY(0);
+  }
+  50%  {
+    transform: translateY(20px);
+  }
+}
+
+p,div,a{
+  color: rgb(76, 75, 75);
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;

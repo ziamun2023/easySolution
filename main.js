@@ -8,4 +8,11 @@ $(document).ready(function() {
 
         $("html, body").animate({ scrollTop: targetPosition }, 1500); // Smooth scroll to the target
     });
+
+    $('.downArrow').click(function(){
+       var targetsection= $(this).data("target")
+       console.log(targetsection)
+       var targetposition=$(targetsection).offset().top
+       $('html,body').animate({scrollTop :targetposition},800)
+    })
 });
